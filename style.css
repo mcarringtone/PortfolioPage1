@@ -1,0 +1,94 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+}
+body{
+  background:#dbddb7;
+  font-family: 'Roboto Slab', serif; 
+
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-content:center;
+  padding:30px 10%;
+}
+p{
+  margin:30px;
+  font-size:20px;
+}
+nav{
+  padding:30px;
+  
+}
+.nav_links{
+
+  font-weight: 500;
+  font-size:16px;
+
+
+}
+li, a {
+  font-family: 'Roboto Slab', serif; 
+  font-weight: 500;
+  font-size:16px;
+
+}
+
+.nav_links li{
+  display:inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color:#D54C53;
+}
+
+section{
+  display: 100vh;
+  
+}
+/* container for Flex box */
+.container {
+  padding:0;
+  margin:0;
+  display:flex; 
+  justify-content: space-evenly;
+  align-items:center;
+  border: 2px solid #b92c34;
+
+}
+ul{
+  border: 1px soild red;
+  list-style: none;
+}
+/* containers that will have my projects displayed */
+.content{
+  background-color: #b92c34;
+  width:350px;
+  height: 250px;
+  margin:10px 10px;
+  border-radius: 5px;
+  position: relative;
+  border:2px solid black;
+  text-align: center;
+  color:white;
+
+}
+
+/* circle that may an image applied */
+.circle1{
+  width:30%;
+  height:42%;
+  border-radius: 50%;
+  background-color: #b92c34;
+  border: 1px solid black;
+  position: absolute;
+  left:33%;
+  bottom:81%;
+}
